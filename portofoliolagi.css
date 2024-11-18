@@ -1,0 +1,95 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Biar padding dan border dihitung di dalam lebar/tinggi elemen */
+}
+
+.navbar-ul {
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.navbar-list {
+    margin: 0 20px;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-container {
+    background-color: gray;
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.foto-profile {
+    border: 10px solid black;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+}
+
+.navbar-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-ul a:hover {
+    color: red;
+    background-color: white;
+}
+
+/* The End of Navbar */
+
+/* The Starts of Body */
+
+.body-container {
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.kotak-satu {
+    border: 5px solid black;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 500px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.judul-game {
+    padding-bottom: 20px;
+}
+
+.foto-game {
+    width: 150px;
+    height: 150px;
+}
+
+.penjelasan-game {
+    padding-top: 20px;
+}
+
+/* The End of Body */
+
+/* The Starts of Footer */
+
+.footer-container {
+    width: 100%;
+    height: 10%;
+    background-color: gray;
+    text-align: center;
+}
+
